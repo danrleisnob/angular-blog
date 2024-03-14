@@ -1,6 +1,6 @@
 .conteiner__big-card{
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 2rem;
@@ -26,5 +26,6 @@
 }
 
 .bi-card__photo img {
-  min-width: 400px;
+  min-width: 600px;
+  min-height: 300px;
 }

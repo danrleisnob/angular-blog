@@ -1,6 +1,7 @@
 .container__smaill-card{
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
+  margin-right: 4rem;
 }
 
 .container__small-card-content{
@@ -17,9 +18,27 @@
 .small-card__title{
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: normal;
 }
 
-container__small-card-separator{
+.container__small-card-separator{
   margin-top: 10px;
+  border: 1px solid grey;
+  margin-right: 1rem;
+}
+
+.small-card__title h1{
+  font-size: 1rem;
+}
+
+.small-card__span span{
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.small-card__abraco{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
 }
