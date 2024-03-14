@@ -3,12 +3,12 @@
   height: 400px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 2rem;
 
 
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  border: solid white 1px;
   justify-content: flex-start;
 }
 
