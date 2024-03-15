@@ -15,6 +15,8 @@ export class SmallCardComponent implements OnInit {
   linkSmall:string = ""
   @Input()
   spanSmall:string = ""
+  @Input()
+  Id:string="0"
 
   constructor() { }
 
